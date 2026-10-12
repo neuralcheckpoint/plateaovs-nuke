@@ -15,6 +15,24 @@ The passes are estimates from a generative model, not physical measurements.
 Metallic and roughness in particular can be wrong on outdoor scenes (bricks or
 trousers read as metal), and normals can be noisy on foliage. Check every shot.
 
+## Examples
+
+Plate, then albedo, normal, roughness, metallic and relative depth, from
+*Tears of Steel* shots (72 frames each, computed with the default 8 steps):
+
+![Plate and the five passes, shot TOS_050_0010](docs/tos050-passes.gif)
+
+Full-quality videos: [shot 050](docs/tos050-passes.mp4),
+[shot 070](docs/tos070-passes.mp4). Stills:
+
+![Frame 1029 of TOS_050_0010](docs/tos050-passes.png)
+![Frame 1049 of TOS_070_0010](docs/tos070-passes.png)
+
+Plates: *Tears of Steel* © Blender Foundation | mango.blender.org, licensed
+[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). The passes shown
+are model output and carry the limits described above (for example, the
+trousers and jacket on the right read as partly metallic).
+
 ## Requirements
 
 - Linux x86-64 (developed and tested on Arch Linux; Windows is untested).
