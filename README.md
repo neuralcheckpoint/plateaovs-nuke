@@ -31,7 +31,7 @@ Full-quality videos: [shot 050](docs/tos050-passes.mp4),
 Plates: *Tears of Steel* © Blender Foundation | mango.blender.org, licensed
 [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). The passes shown
 are model output and carry the limits described above (for example, the
-trousers and jacket on the right read as partly metallic).
+clothing reads as partly metallic in the metallic pass).
 
 ## Requirements
 
