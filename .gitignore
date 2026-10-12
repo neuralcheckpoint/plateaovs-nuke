@@ -1,0 +1,6 @@
+.venv/
+models/
+vendor/
+__pycache__/
+.pytest_cache/
+scratch/

@@ -1,0 +1,23 @@
+# PyPI's torch 2.6.0 is the CUDA 12.4 build Cosmos was tested with; pinned here
+# so megatron-core (unpinned torch) can't pull a newer one.
+torch==2.6.0
+torchvision==0.21.0
+numpy==1.26.4
+einops
+hydra-core
+omegaconf
+iopath
+loguru
+attrs
+termcolor
+safetensors
+huggingface_hub
+megatron-core==0.10.0
+# Imported by the Cosmos modules the inverse renderer loads.
+imageio==2.37.0
+diffusers==0.32.2
+transformers==4.49.0
+boto3
+pandas
+OpenImageIO
+pytest
